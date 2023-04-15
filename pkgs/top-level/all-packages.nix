@@ -12247,6 +12247,8 @@ with pkgs;
 
   roam-research = callPackage ../applications/office/roam-research { };
 
+  robo = callPackage ../development/tools/robo { };
+
   rosie = callPackage ../tools/text/rosie { };
 
   rounded-mgenplus = callPackage ../data/fonts/rounded-mgenplus { };
