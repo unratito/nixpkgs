@@ -18000,6 +18000,8 @@ with pkgs;
 
   dbus-test-runner = callPackage ../development/tools/dbus-test-runner { };
 
+  phpbench = callPackage ../development/tools/misc/phpbench { };
+
   phpunit = callPackage ../development/tools/misc/phpunit { };
 
   teller = callPackage ../development/tools/teller { };
