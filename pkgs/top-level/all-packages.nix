@@ -18002,6 +18002,8 @@ with pkgs;
 
   phpbench = callPackage ../development/tools/misc/phpbench { };
 
+  phpdocumentor = callPackage ../development/tools/misc/phpdocumentor { };
+
   phpunit = callPackage ../development/tools/misc/phpunit { };
 
   teller = callPackage ../development/tools/teller { };
